@@ -16,8 +16,6 @@ public class Man extends Lover {
 
     private String name;
 
-
-
     @Override
     public void help() {
         System.out.println("坚持住：队友"+ this.name +"来了");

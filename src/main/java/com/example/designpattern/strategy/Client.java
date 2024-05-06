@@ -6,9 +6,8 @@ public class Client {
     public static void main(String[] args) {
         Gopay gopay = new Gopay();
 
-        AbstractPayStrategy abstractPayStrategy;
-
-        abstractPayStrategy = new DiscountStrategy();
+        //优惠券算法
+        AbstractPayStrategy abstractPayStrategy = new DiscountStrategy();
 
         gopay.setAbstractPayStrategy(abstractPayStrategy);
 

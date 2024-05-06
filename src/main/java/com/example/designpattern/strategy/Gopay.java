@@ -29,9 +29,7 @@ public class Gopay {
     }
 
     public double algorithm(){
-        double algorithm = abstractPayStrategy.algorithm(this.price);
-
-        return algorithm;
+        return abstractPayStrategy.algorithm(this.price);
     }
 
 }

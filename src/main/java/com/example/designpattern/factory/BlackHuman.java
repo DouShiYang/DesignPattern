@@ -19,4 +19,6 @@ public class BlackHuman implements Human {
     public void talk() {
         System.out.println("黑人说的鸟语");
     }
+
+
 }

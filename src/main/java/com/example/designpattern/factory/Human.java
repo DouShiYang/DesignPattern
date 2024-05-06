@@ -11,5 +11,5 @@ public interface Human {
 
     public void talk();
 
-    public void sex();
+//    public void sex();
 }
